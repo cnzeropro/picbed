@@ -9,4 +9,4 @@ Image hosting for Markdown documents and blog posts, uploaded with PicGo.
   - GitHub: `https://raw.githubusercontent.com/cnzeropro/picbed/master/<path>`
 - Folders in use: `favicon/`
 
-> The repository name is part of every image URL, and Gitee has no rename redirect. Do not rename it again.
+> The repository name is part of every image URL. After renaming `pic` -> `picbed`, both the old and the new raw URLs were verified to still resolve on Gitee and GitHub (both keep an alias for the old path), but that alias can break if the old path gets re-registered. Avoid renaming again.
